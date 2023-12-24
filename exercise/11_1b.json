@@ -1,0 +1,12 @@
+{
+    "iterations": 25,
+    "width": 600,
+    "height": 600,
+    "r": 0.5,
+    "theta":37.5,
+    "transformations": [
+        ["1",  "r*x, r*y"],
+        ["1",  "-r*x+1, r*y"],
+        ["1",  "r*x, -r*y+1"]
+    ]
+}

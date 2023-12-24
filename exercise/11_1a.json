@@ -1,0 +1,12 @@
+{
+    "iterations": 30,
+    "width": 600,
+    "height": 600,
+    "r": 0.6,
+    "theta":37.5,
+    "transformations": [
+        ["1",  "x, y"],
+        ["1",  "r*cos(theta)*x - r*sin(theta)*y, r*sin(theta)*x + r*cos(theta)*y + 1"],
+        ["1",  "r*cos(theta)*x + r*sin(theta)*y, - r*sin(theta)*x + r*cos(theta)*y + 1"]
+    ]
+}
